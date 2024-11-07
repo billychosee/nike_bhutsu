@@ -49,14 +49,14 @@ export default function Home() {
   return (
     <main className="relative" dir={curLang === "ar" ? "rtl" : ""}>
       <div className=" w-full relative max-container pt-28 ">
-        <div className="bg-coral-red bg-opacity-25 leading-10 rounded-lg text-center font-montserrat text-md w-full">
+        <div className="bg-blue-600 bg-opacity-25 leading-10 rounded-lg text-center font-montserrat text-md w-full">
           {t(shipMsg)}
         </div>
       </div>
       <section className="flex justify-center items-center py-5 lg:hidden">
         <button
           onClick={() => setShowFilters((prev) => !prev)}
-          className="flex justify-center items-center gap-2 px-5 py-3 border border-coral-red font-montserrat text-lg rounded-xl text-black"
+          className="flex justify-center items-center gap-2 px-5 py-3 border border-blue-600 font-montserrat text-lg rounded-xl text-black"
         >
           Filters
           <Image src={filter} alt="Arrow Right" className="ml-2 w-5 h-5" />

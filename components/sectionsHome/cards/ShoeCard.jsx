@@ -12,12 +12,12 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
     <div
       className={`border-[1px] rounded-xl ${
         bigShoeImg === imgURL.bigShoe
-          ? "border-coral-red"
+          ? "border-blue-600"
           : "border-transparent"
       } cursor-pointer max-sm:flex-1`}
       onClick={handleClick}
     >
-      <div className="flex bg-coral-red bg-opacity-25  justify-center items-center bg-card-img bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
+      <div className="flex bg-blue-600 border-blue-600 bg-opacity-25  justify-center items-center bg-card-img bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
         <Image
           src={imgURL.thumbnail}
           alt="shoe collection"

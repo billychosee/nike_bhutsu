@@ -34,7 +34,7 @@ const Subscribe = () => {
     >
       <h3 className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold">
         {t(`home.subscribe.title1`)}
-        <span className="text-coral-red"> {t(`home.subscribe.title2`)} </span>
+        <span className="text-blue-600"> {t(`home.subscribe.title2`)} </span>
         {t(`home.subscribe.title3`)}
       </h3>
 
@@ -52,7 +52,7 @@ const Subscribe = () => {
 
           <button
             disabled={msg === "success" || msg === "load"}
-            className="bg-coral-red border-2 border-coral-red h-full min-h-[50px] rounded-full w-56 text-white font-semibold hover:text-black hover:bg-transparent transition-all flex justify-center items-center"
+            className="bg-blue-600 border-2 border-blue-600  h-full min-h-[50px] rounded-full w-56 text-white font-semibold hover:text-black hover:bg-transparent transition-all flex justify-center items-center"
           >
             {msg === "success" ? (
               <p className="flex flex-row justify-center items-center gap-2 text-black">

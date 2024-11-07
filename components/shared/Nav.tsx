@@ -80,7 +80,7 @@ const Nav = () => {
               <li key={item.label} className="pt-1">
                 <Link
                   href={item.isRoute ? `/${item.href}` : `/#${item.href}`}
-                  className="font-montserrat leading-normal text-lg text-slate-gray hover:text-coral-red"
+                  className="font-montserrat leading-normal text-lg text-slate-gray hover:text-blue-600"
                 >
                   {t(`nav.${item.label}`)}
                 </Link>
@@ -96,7 +96,7 @@ const Nav = () => {
                 curLang === "ar"
                   ? "leftsidebar rounded-br-3xl"
                   : "rightsidebar rounded-bl-3xl"
-              } bg-coral-red bg-opacity-100 lg:hidden transition-all` +
+              } bg-blue-600 bg-opacity-100 lg:hidden transition-all` +
               (sideBar ? "w-fit" : "w-0")
             }
           >
@@ -135,7 +135,7 @@ const Nav = () => {
           <section
             className={`absolute max-lg:hidden transition-all top-10 ${
               curLang === "ar" ? "left-0" : "right-0"
-            } h-fit max-h-64 overflow-y-hidden p-3 min-w-max bg-white shadow-2xl rounded-xl border-2 border-coral-red ${
+            } h-fit max-h-64 overflow-y-hidden p-3 min-w-max bg-white shadow-2xl rounded-xl border-2 border-blue-600 ${
               isHovered
                 ? "opacity-100 translate-y-0 "
                 : "opacity-0 -translate-y-5 delay-500"

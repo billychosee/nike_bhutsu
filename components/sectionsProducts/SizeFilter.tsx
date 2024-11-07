@@ -41,7 +41,7 @@ const SizeFilter = ({ sizes, setSizes }: any) => {
             value={size}
             onClick={() => toggleSize(size)}
             className={`text-center font-montserrat  border-2 rounded-md p-1 ${
-              sizes.includes(size) ? "border-coral-red" : ""
+              sizes.includes(size) ? "border-blue-600" : ""
             }`}
           >
             {size}

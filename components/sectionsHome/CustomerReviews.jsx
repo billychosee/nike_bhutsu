@@ -8,7 +8,7 @@ const CustomerReviews = () => {
     <section className="max-container">
       <h3 className="font-palanquin text-center text-4xl font-bold">
         {t(`home.customer.title1`)}
-        <span className="text-coral-red">
+        <span className="text-blue-600">
           {" "}
           {t(`home.customer.title2`)}
         </span>{" "}

@@ -25,7 +25,7 @@ const Hero = () => {
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28">
-        <p className="text-xl font-montserrat text-coral-red">
+        <p className="text-xl font-montserrat text-blue-600">
           {t(`home.hero.summerCollections`)}
         </p>
 
@@ -39,7 +39,7 @@ const Hero = () => {
           </span>
           <br />
           {t(`home.hero.title2`)}{" "}
-          <span className="text-coral-red inline-block mt-3">
+          <span className="text-blue-600 inline-block mt-3">
             {t(`home.hero.title3`)}
           </span>
         </h1>
@@ -48,7 +48,7 @@ const Hero = () => {
         </p>
 
         <Link href="/products">
-          <button className="flex justify-center items-center gap-2 px-7 py-4 border border-coral-red font-montserrat text-lg leading-none bg-coral-red rounded-full text-white hover:bg-white hover:text-coral-red transition-all">
+          <button className="flex justify-center items-center gap-2 px-7 py-4 border border-blue-600 font-montserrat text-lg leading-none bg-blue-600 rounded-full text-white hover:bg-white hover:text-blue-600 transition-all">
             {t(`home.hero.shopNow`)}
             <Image
               src={arrowRight}
@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative bg-coral-red bg-opacity-25 xl:rounded-b-full z-8 bg-center flex-1 flex justify-center items-center xl:min-h-screen max-xl:mt-10 max-xl:py-40">
+      <div className="relative bg-blue-600 bg-opacity-25 xl:rounded-b-full z-8 bg-center flex-1 flex justify-center items-center xl:min-h-screen max-xl:mt-10 max-xl:py-40">
         <Image
           src={bigShoeImg}
           alt="Shoe Collection"

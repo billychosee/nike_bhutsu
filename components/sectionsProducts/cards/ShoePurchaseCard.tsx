@@ -37,7 +37,7 @@ const ShoePurchaseCard = ({
         />
 
         <div className="w-full max-w-[300px] font-montserrat flex flex-col py-2">
-          <div className="w-full text-coral-red text-sm font-semibold ">
+          <div className="w-full text-blue-600 text-sm font-semibold ">
             {special === "" ? "" : t(`products.${special}`)}
           </div>
           <div className="w-full font-semibold text-xl">

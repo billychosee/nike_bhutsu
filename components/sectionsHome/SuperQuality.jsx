@@ -16,13 +16,13 @@ const SuperQuality = () => {
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           {t(`home.superQuality.title1`)}
-          <span className="text-coral-red">
+          <span className="text-blue-600">
             {" "}
             {t(`home.superQuality.title2`)}{" "}
           </span>
           <br />
           {t(`home.superQuality.title3`)}
-          <span className="text-coral-red">
+          <span className="text-blue-600">
             {" "}
             {t(`home.superQuality.title4`)}
           </span>

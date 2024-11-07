@@ -60,7 +60,7 @@ const CartItemCard = ({
               <p className="text-slate-gray">
                 {t(`cart.Size`)}: {size}
               </p>
-              <p className="text-coral-red font-semibold">{price}</p>
+              <p className="text-blue-600 font-semibold">{price}</p>
             </div>
           </div>
         </section>

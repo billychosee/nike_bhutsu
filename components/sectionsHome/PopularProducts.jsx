@@ -14,7 +14,7 @@ const PopularProducts = () => {
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
           {t(`home.popularProds.Our`)}{" "}
-          <span className="text-coral-red">
+          <span className="text-blue-600">
             {" "}
             {t(`home.popularProds.Popular`)}
           </span>{" "}

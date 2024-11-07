@@ -97,7 +97,7 @@ export default function Page({ params }: any) {
                 </div>
               </section>
             )}
-            <div className="bg-coral-red bg-opacity-25 leading-10 rounded-lg text-center font-montserrat text-md w-full ">
+            <div className="bg-blue-600 bg-opacity-25 leading-10 rounded-lg text-center font-montserrat text-md w-full ">
               {t(shipMsg)}
             </div>
             <section
@@ -126,7 +126,7 @@ export default function Page({ params }: any) {
                 </button>
               </div>
               <div className="w-1/3 h-fit min-h-[400px] p-10 max-lg:w-full">
-                <div className="w-full text-coral-red text-sm font-semibold ">
+                <div className="w-full text-blue-600 text-sm font-semibold ">
                   {shoeDetails["special"] === ""
                     ? ""
                     : t(`products.${shoeDetails["special"]}`)}
@@ -154,7 +154,7 @@ export default function Page({ params }: any) {
                       value={size}
                       className={`text-center font-montserrat border-2 w-14 rounded-md p-1 ${
                         sizeSelected === size
-                          ? "border-coral-red border-2"
+                          ? "border-blue-600 border-2"
                           : "border-slate-600"
                       }}`}
                       onClick={() => handleSizeSelect(size)}

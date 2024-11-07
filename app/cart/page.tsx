@@ -104,7 +104,7 @@ const page = () => {
     <>
       <main className="relative" dir={curLang === "ar" ? "rtl" : ""}>
         <div className="w-full min-h-screen relative max-container pt-28">
-          <div className="bg-coral-red bg-opacity-25 leading-10 rounded-lg text-center font-montserrat text-md w-full ">
+          <div className="bg-blue-600 bg-opacity-25 leading-10 rounded-lg text-center font-montserrat text-md w-full ">
             {t(shipMsg)}
           </div>
           <section className="flex max-lg:flex-col flex-row">
@@ -181,7 +181,7 @@ const page = () => {
                 {parseInt(discountAmt) > 0 ? (
                   <div>
                     $ {total} -{" "}
-                    <p className="text-coral-red inline">{discountAmt}%</p> = ${" "}
+                    <p className="text-blue-600 inline">{discountAmt}%</p> = ${" "}
                     {discTotal}
                   </div>
                 ) : (

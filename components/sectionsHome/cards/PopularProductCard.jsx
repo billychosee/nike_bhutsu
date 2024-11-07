@@ -37,7 +37,7 @@ const PopularProductCard = ({ imgURL1, name, price, rating }) => {
       <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">
         {t(`products.${name}`)}
       </h3>
-      <p className="mt-2 font-semibold font-montserrat text-coral-red text-lg leading-normal">
+      <p className="mt-2 font-semibold font-montserrat text-blue-600 text-lg leading-normal">
         {price}
       </p>
     </div>
